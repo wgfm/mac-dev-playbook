@@ -83,10 +83,7 @@ configure_dock: true
 dockitems_remove:
   - Launchpad
   - TV
-dockitems_persist:
-  - name: "Sublime Text"
-    path: "/Applications/Sublime Text.app/"
-    pos: 5
+dockitems_persist: []
 ```
 
 Any variable can be overridden in `config.yml`; see the supporting roles' documentation for a complete list of available variables.
@@ -109,7 +106,6 @@ Applications (installed with Homebrew Cask):
   - [Sequel Ace](https://sequel-ace.com) (MySQL client)
   - [Skitch](https://evernote.com/skitch/)
   - [Slack](https://slack.com/)
-  - [Sublime Text](https://www.sublimetext.com/)
   - [Transmit](https://panic.com/transmit/) (S/FTP client)
   - [Vagrant](https://www.vagrantup.com/)
 
